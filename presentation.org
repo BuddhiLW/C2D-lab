@@ -1,0 +1,1383 @@
+#+TITLE: Free Software in Industry and Academia
+#+AUTHOR: Pedro G. Branquinho
+bibliography:../../bib.bib
+
+* Considerations
+** Benefit from generality
+#+begin_quote
+"Thus, as everyone knows, the same algerbraic calculation can be used
+to solve problems about pounds weight or pounds sterling, about
+parabolas or motion under gravity. 
+
+
+(...)This faculty of being able to give different meanings to the
+words of prime concepts of a theory is indeed an important source of
+enrichment of the mathematician's intuition.(...) aided often by
+images from very varied sources, but founded above all on everyday
+experience." cite:bourbaki2004theory
+#+end_quote
+- Bourbaki N., 1968, Theory of Sets, Elements of Mathematics. 
+** How we behave, depending on environemental-structured
+*** Physical and the Cyberspace
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/workspace-modulate.png][file:../../Imagens/Presentation/workspace-modulate.png]]
+Presentation from João Baptista, in CSBC
+
+*** Social Rethoric in Cyberspaces
+
+#+ATTR_HTML: :width 900
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/social-and-rethoric.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/social-and-rethoric.png]]
+Presentation from João Baptista, in CSBC
+
+*** How we learn based on structures
+
+#+ATTR_HTML: :width 700
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/Learning.jpg][file:~/PP/LaTeX/TCC/Imagens/Presentation/learning.jpg]]
+*** EXWM - A unified environment
+*An environment crafted for Productivity and Inteligent
+ Self-manager*.
+
+ A little more radical than IDE's - Integrated Development Environment.
+**** Development experience
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/emacs-development.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/emacs-development.png]]
+**** General purpouse use of software
+
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/exwm3.png][file:~/PP/LaTeX/TCC/Imagens/exwm3.png]]
+* FOSS            
+*Free and Open Source Software (FOSS)*
+** Four Essential Freedoms
+- A program is free software if the program's users have the *four essential freedoms*: 
+  * The freedom to *run the program as you wish*, for any purpose (freedom 0).
+  * The freedom to *study* how the program works, and change it so it
+    does your computing as you wish (freedom 1). Access to the source
+    code is a precondition for this.
+  * The freedom to *redistribute copies* so you can help others (freedom 2).
+  * The freedom to *distribute copies* of your *modified versions* to
+    others (freedom 3). By doing this you can give the whole community
+    a chance to benefit from your changes. Access to the source code
+    is a precondition for this.
+
+*NOTE*: these definitions entail some kind of social structure
+* A common problem - Collapsing Towers of Interpreters
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/workspace-modulate.png][file:../../Imagens/Presentation/collapsing-towers.png]]
+
+* Community and Science
+There is *similarity in structure* between Scientific and Open Source
+community; social-structures; communication.
+
+Coming back to the notions explored in "[[*How we behave, depending on environemental-structured][How we behave, depending on
+environemental-structured]]" section.
+
+** Use of the concept
+*** Epistemology: the map is not the territory
+#+begin_quote
+If words are not things, or maps are not the actual territory. Then,
+obviously, the only possible link between the objective world and the
+linguistic world is found in structure, and structure alone.
+#+end_quote
+- Alfred Korzybisky, Science and Sanity, 1933. cite:korzybski1958science
+
+**** World of not-words
+#+begin_quote
+"It has been said by many, and in various ways, that the problems of
+knowing and of understanding center around the relation of language to
+reality, of symbol to fact." 
+#+end_quote
+- People in Quandaries, Wendell Johnson
+*** Mathematics: Isomorphism
+#+begin_quote
+*4.11 Definition* Let A and B be partially ordered classes; a function
+f : A → B is called an isomorphism if it is bijective and satisfies
+the following condition:
+
+For every two elements
+$x \in A$ and $y \in A$,  [ $f(x) \in B$ and $f(y) \in B$ ]:
+
+\begin{equation}
+x \leq y \, \Leftrightarrow \, f(x) \leq f(y)
+\end{equation}
+#+end_quote
+- Charles Pinter, A Book of Set Theory, 1976, p.147. cite:pinter2014book
+
+*** Linguistics: Language Transfer Mechanism
+  #+begin_quote
+"(...) It consists of replicating structures from the learner's first
+language when they are speaking or writing something in a second language." 
+
+"Linguists agree that language transfer is used by language
+learners especially when they are unsure about which structure to use
+in the second language."
+  #+end_quote
+- [[http://edutechwiki.unige.ch/en/Language_transfer_theory][Language transfer definition - edutechwiki]]
+  
+** General Qualities of Communities
+How do the communities converse.
+*** Autopoiesis 
+#+ATTR_HTML: :width 500
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/Autopoieses.jpeg][file:~/PP/LaTeX/TCC/Imagens/Presentation/Autopoieses.jpeg]]
+
+** Scientific Community
+*** Example, Brazilian Society Congress on Computation (CSBC)
+**** Coincidental works
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/Fabiola-conclusion.jpeg][file:~/PP/LaTeX/TCC/Imagens/Presentation/Fabiola-conclusion.jpeg]]
+**** Interaction
+#+ATTR_HTML: :width 600
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/Fabiola.jpeg][file:~/PP/LaTeX/TCC/Imagens/Presentation/Fabiola.jpeg]]
+**** Reading Open Papers 
+*Increase in likelyhood of collaboration*
+
+#+ATTR_HTML: :width 600
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/fabiola-paper.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/fabiola-paper.png]]
+***** Other examples
+****** Graph Neural Networks paper and github
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/NN-paper.jpeg][file:~/PP/LaTeX/TCC/Imagens/Presentation/NN-paper.jpeg]]
+****** arXiv.org
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/arxiv.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/arxiv.png]]
+*** Jorney on Atualization of Informatics (JAI) - Workshop
+*Currently,* there is a trend for reproducible works. And more than
+ ever, computation can make that a reality.
+**** Data Science and Jupyter Reproducibility
+***** Github Project 
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/JAI-reproducible.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/JAI-reproducible.png]]
+
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/JAI-jupyter.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/JAI-jupyter.png]]
+*** How a Status of Contributions look like
+#+ATTR_HTML: :width 900
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-work.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/research-gate.png]]
+
+** Open Source Community
+*** Participation
+**** Almost instant feedback
+#+ATTR_HTML: :width 400
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-work.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-work.png]]
+
+**** Explanation and discussion
+#+ATTR_HTML: :width 400
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-js.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-js.png]]
+
+**** Github
+#+ATTR_HTML: :width 400
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-js3.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/telegram-question-js3.png]]
+*** Videos and tutorials
+Analogous to JAI
+#+ATTR_HTML: :width 600
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/SysCraf.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/SysCraf.png]]
+*** Projects, Forums, Social groups
+**** Forum notice
+#+ATTR_HTML: :width 600
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/artix.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/artix.png]]
+**** Quick implementation to the "State of the Art"
+#+ATTR_HTML: :width 600
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-participate.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/github-participate.png]]
+**** Stack of contributions (Stats)
+***** Initial
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png]]
+***** Update
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil2.png]]
+
+* A FOSS-based system
+** Operational System (OS)
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/neofetch.png]]
+** A Pacman-based system
+How to install programs
+
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/pacman.png]]
+
+Note: leiningen would be the equivalent of pip (python) or npm
+(javascript) for Clojure.
+
+** Community maintaned packages
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/yay.png]]
+
+** Archlinux User Repositoy - AUR
+*** Search for Julia (example)
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/aur-search.png]]
+*** Find that there is the binary
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/julia-bin.jpeg]]
+
+*** Where one may stumble upon other projects
+**** Fractive
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/aur-search.png]]
+
+***** Learn more
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/fractive.png]]
+**** Relativistic Geodesics
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/julia-search-proj.jpeg]]
+***** Learn more
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/einstein.png]]
+
+*** Also, OR-Tools and Freqtrade
+**** OR-Tools
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/or-tools-aur.png]]
+**** Freqtrade
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/freqtrade-aur.png]]
+
+* Industry Applications
+
+We will work (coincidentally) with two problems related to a list of
+top 30 globally challenging problems, created by Huawei. Also, we will
+comment and propose a solution to a third one.
+
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/huawei.jpeg]]
+
+** Python
+*** Operational Research Tools - OR-Tools
+**** Relevance
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/scheduling.jpeg]]
+
+**** Exemplary problem
+  1. Constants
+     1. Quantity of nurses, 5
+     2. 6 hours shifts (4 shifts/day)
+  2. Constrains
+     1. Nurses can't work twice a day
+     2. Try to equally distributed shifts, if possible (in terms of quantity)
+  3. Period
+     1. Calculate for 2 days
+
+**** The code to solve it
+#+NAME: 5254a4aa-d59a-4522-80a4-50bef477a76b
+#+begin_src ein-python :session localhost :results output
+   from ortools.sat.python import cp_model
+  
+  class NursesPartialSolutionPrinter(cp_model.CpSolverSolutionCallback):
+      """Print intermediate solutions."""
+  
+      def __init__(self, shifts, num_nurses, num_days, num_shifts, sols):
+          cp_model.CpSolverSolutionCallback.__init__(self)
+          self._shifts = shifts
+          self._num_nurses = num_nurses
+          self._num_days = num_days
+          self._num_shifts = num_shifts
+          self._solutions = set(sols)
+          self._solution_count = 0
+  
+      def on_solution_callback(self):
+          if self._solution_count in self._solutions:
+              print('Solution %i' % self._solution_count)
+              for d in range(self._num_days):
+                  print('Day %i' % d)
+                  for n in range(self._num_nurses):
+                      is_working = False
+                      for s in range(self._num_shifts):
+                          if self.Value(self._shifts[(n, d, s)]):
+                              is_working = True
+                              print('  Nurse %i works shift %i' % (n, s))
+                      if not is_working:
+                          print('  Nurse {} does not work'.format(n))
+              print()
+          self._solution_count += 1
+  
+      def solution_count(self):
+          return self._solution_count
+  
+  def main():
+      # Data.
+      num_nurses = 5
+      num_shifts = 4
+      num_days = 2
+      all_nurses = range(num_nurses)
+      all_shifts = range(num_shifts)
+      all_days = range(num_days)
+      # Creates the model.
+      model = cp_model.CpModel()
+  
+      # Creates shift variables.
+      # shifts[(n, d, s)]: nurse 'n' works shift 's' on day 'd'.
+      shifts = {}
+      for n in all_nurses:
+          for d in all_days:
+              for s in all_shifts:
+                  shifts[(n, d,
+                          s)] = model.NewBoolVar('shift_n%id%is%i' % (n, d, s))
+  
+      # Each shift is assigned to exactly one nurse in the schedule period.
+      for d in all_days:
+          for s in all_shifts:
+              model.Add(sum(shifts[(n, d, s)] for n in all_nurses) == 1)
+  
+      # Each nurse works at most one shift per day.
+      for n in all_nurses:
+          for d in all_days:
+              model.Add(sum(shifts[(n, d, s)] for s in all_shifts) <= 1)
+  
+      # Try to distribute the shifts evenly, so that each nurse works
+      # min_shifts_per_nurse shifts. If this is not possible, because the total
+      # number of shifts is not divisible by the number of nurses, some nurses will
+      # be assigned one more shift.
+      min_shifts_per_nurse = (num_shifts * num_days) // num_nurses
+      if num_shifts * num_days % num_nurses == 0:
+          max_shifts_per_nurse = min_shifts_per_nurse
+      else:
+          max_shifts_per_nurse = min_shifts_per_nurse + 1
+      for n in all_nurses:
+          num_shifts_worked = 0
+          for d in all_days:
+              for s in all_shifts:
+                  num_shifts_worked += shifts[(n, d, s)]
+          model.Add(min_shifts_per_nurse <= num_shifts_worked)
+          model.Add(num_shifts_worked <= max_shifts_per_nurse)
+  
+      # Creates the solver and solve.
+      solver = cp_model.CpSolver()
+      solver.parameters.linearization_level = 0
+      # Display the first five solutions.
+      a_few_solutions = range(2)
+      solution_printer = NursesPartialSolutionPrinter(shifts, num_nurses,
+                                                      num_days, num_shifts,
+                                                      a_few_solutions)
+      solver.SearchForAllSolutions(model, solution_printer)
+  
+      # Statistics.
+      print()
+      print('Statistics')
+      print('  - conflicts       : %i' % solver.NumConflicts())
+      print('  - branches        : %i' % solver.NumBranches())
+      print('  - wall time       : %f s' % solver.WallTime())
+      print('  - solutions found : %i' % solution_printer.solution_count())
+  
+  
+  if __name__ == '__main__':
+      main() 
+#+end_src
+
+#+RESULTS: 5254a4aa-d59a-4522-80a4-50bef477a76b
+#+begin_example
+Solution 0
+Day 0
+  Nurse 0 does not work
+  Nurse 1 works shift 2
+  Nurse 2 works shift 3
+  Nurse 3 works shift 1
+  Nurse 4 works shift 0
+Day 1
+  Nurse 0 works shift 3
+  Nurse 1 works shift 2
+  Nurse 2 works shift 1
+  Nurse 3 works shift 0
+  Nurse 4 does not work
+
+Solution 1
+Day 0
+  Nurse 0 works shift 2
+  Nurse 1 does not work
+  Nurse 2 works shift 3
+  Nurse 3 works shift 1
+  Nurse 4 works shift 0
+Day 1
+  Nurse 0 works shift 3
+  Nurse 1 works shift 2
+  Nurse 2 works shift 1
+  Nurse 3 works shift 0
+  Nurse 4 does not work
+
+
+Statistics
+  - conflicts       : 17
+  - branches        : 100376
+  - wall time       : 0.287195 s
+  - solutions found : 11520
+#+end_example
+
+*** Freqtrade
+**** Optimize your strategy of trading
+
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/freqtrade2.jpeg]]
+**** Get the output of suggested values
+
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/freqtrade3.jpeg]]
+**** Backtest on historical data
+
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/freqtrade4.jpeg]]
+**** Summary of performance
+
+#+ATTR_HTML: :width 400
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/freqtrade5.jpeg]]
+
+* Academic Applications
+** Julia
+*** DifferentialEquations.jl
+**** Relevance
+#+ATTR_HTML: :width 1000
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/Presentation/difeq.jpeg]]
+**** Exemplary Application
+Rumor propagation modeled by a system of ODEs (cite:piqueira2010rumor)
+
+\begin{equation*}
+\begin{cases*}
+  \begin{align*}
+    \dot{I} &= − \beta k SI \\
+    \dot{S} &= \beta kSI - \alpha kS (S+R)\\
+    \dot{R} &= \alpha k S(S+R)
+  \end{align*}
+\end{cases*}
+\end{equation*}
+
+***** Model the behavior of "hard to get information"
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/fig09.png]]
+
+***** Hints on strategical ways to diminish the propagation of rumors
+#+ATTR_HTML: :width 800
+[[file:~/PP/LaTeX/TCC/Imagens/Presentation/github-perfil.png][file:~/PP/LaTeX/TCC/Imagens/fig95.png]]
+
+
+** Clojure
+*** Physical Simulations
+**** Cellular Automata example
+***** Import
+    #+begin_src clojure
+ (ns examples.NOC.ch07.wolframca-figures-7-2
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.random :as r]))
+    #+end_src
+
+    #+RESULTS:
+
+***** Constants
+     #+begin_src clojure
+ (set! *warn-on-reflection* true)
+ (set! *unchecked-math* :warn-on-boxed)
+ (m/use-primitive-operators)
+
+ (def ^:const ^int scl 8)
+ (def ^:const ^int w 1000)
+ (def ^:const ^int h 800)
+
+ (def ^:const ^int cell-no (/ w scl))
+ (def ^:const ^int rows (/ h scl))
+
+ (def ^:const wrap? false) ;; change to wrap cells
+     #+end_src
+
+***** Create a mechanism to represent the rules and values on canvas 
+     #+begin_src clojure
+       (defn make-rule
+	 "Create rule table based on Celular Automata (C.A.) number."
+	 [^long id]
+	 (mapv
+	  #(if (zero? (bit-and id (bit-shift-left 1 ^long %)))
+	     0
+	     1)
+	  (range 7 -1 -1)))
+     #+end_src
+
+     #+begin_src clojure
+       (defn apply-rule
+	 "Create rule number from `a`, `b`, `c`, parameters (values 0 or 1)
+	 and return result from rule table."
+	 [rule a b c]
+	 (let [s (str a b c)
+	       idx (Integer/parseInt s 2)]
+	   (rule idx)))
+     #+end_src
+
+     #+begin_src clojure
+       (defn init-cells
+	 "Create first line with one single seed in the middle"
+	 [^long size]
+	 (mapv
+	  #(if (== ^long % (m/floor (/ size 2)))
+	     1
+	     0)
+	  (range size)))
+     #+end_src
+
+     #+RESULTS:
+     : #'examples.NOC.ch07.wolframca-figures-7-1/init-cells
+
+     #+begin_src clojure
+       (defn next-cells
+	 "Calculate next line based on previous and rule, wrap result."
+	 [cells rule]
+	 (let [s (count cells)]
+	   (mapv
+	    #(let [^long v %                 
+		   [l r] (if wrap?
+			   [(cells (int (m/wrap 0 s (dec v))))
+			    (cells (int (m/wrap 0 s (inc v))))]
+			   [(if (zero? v) 0 (cells (dec v)))
+			    (if (< v (dec s)) (cells (inc v)) 0)])]
+	       (apply-rule rule l (cells v) r)) (range s))))
+     #+end_src
+
+     #+RESULTS:
+     : #'examples.NOC.ch07.wolframca-figures-7-1/next-cells
+
+     #+begin_src clojure
+       (defn draw-cells
+	 "Draw cells."
+	 [canvas rule]
+	 (loop [cells (init-cells cell-no)
+		row (int 0)]
+	   (when (< row rows)      
+	     (dotimes [x cell-no]
+	       (if (== ^int (cells x) 1)
+		 (set-color canvas :black)
+		 (set-color canvas :white))
+	       (rect canvas (* x scl) (* row scl) scl scl)
+	       (set-color canvas :black)
+	       (rect canvas (* x scl) (* row scl) scl scl true))
+	     (recur (next-cells cells rule)
+		    (inc row)))))
+     #+end_src
+
+     #+RESULTS:
+     : #'examples.NOC.ch07.wolframca-figures-7-1/draw-cells
+
+     #+begin_src clojure
+ (def cnvs (canvas w h))
+ (def window (show-window cnvs "Wolframca figures 7_1"))
+     #+end_src
+
+     #+RESULTS:
+
+     #+begin_src clojure
+       (defn draw-rule
+	 "Two cases. Empty or with a rule."
+	 ([] (draw-rule (r/irand 256))) 
+	 ([rule]
+	  (println (str "Rule: " rule))
+	  (with-canvas-> cnvs
+	    (draw-cells (make-rule rule)))))
+     #+end_src
+
+     #+RESULTS:
+     : #'examples.NOC.ch07.wolframca-figures-7-1/draw-rule
+
+     #+begin_src clojure
+       (defmethod mouse-event
+	 ["Wolframca figures 7_1" :mouse-clicked] [_ _]
+	 (draw-rule))
+     #+end_src
+
+     #+RESULTS:
+     : #multifn[mouse-event 0x3a9569ce]
+
+     #+begin_src clojure
+       (draw-rule 29)
+     #+end_src
+
+     #+RESULTS:
+    
+***** Rendering rules
+     #+begin_src clojure :tangle ~/PP/Clojure/clojure2d-examples/src/NOC/ch07/wolframca_figures_7_2.clj
+       (def cnvs (canvas w h))
+       (def window (show-window cnvs "Wolframca figures 7_1"))
+       (draw-rule 122)
+     #+end_src
+
+     #+begin_src clojure :tangle ~/PP/Clojure/clojure2d-examples/src/NOC/ch07/wolframca_figures_7_2.clj :mkdirp
+       (defn renderize-rule [nth-rule]
+	 (do
+	   (def cnvs (canvas 1000 800))
+	   (def window (show-window cnvs (str "rule number " nth-rule)))
+	   (draw-rule nth-rule)))
+     #+end_src
+
+     #+RESULTS:
+     : #'examples.NOC.ch07.wolframca-figures-7-1/renderize-rule
+
+     #+begin_src clojure
+ (renderize-rule 331)
+     #+end_src
+**** Cellular Automata Example (Full)
+#+begin_src clojure
+(ns examples.NOC.ch07.wolframca-figures-7-1
+  (:require [clojure2d.core :refer :all]
+            [fastmath.core :as m]
+            [fastmath.random :as r]))
+
+(set! *warn-on-reflection* true)
+(set! *unchecked-math* :warn-on-boxed)
+(m/use-primitive-operators)
+
+(def ^:const ^int scl 8)
+(def ^:const ^int w 1000)
+(def ^:const ^int h 800)
+
+(def ^:const ^int cell-no (/ w scl))
+(def ^:const ^int rows (/ h scl))
+
+(def ^:const wrap? false) ;; change to wrap cells
+
+(defn make-rule
+  "Create rule table based on CA number."
+  [^long id]
+  (mapv #(if (zero? (bit-and id (bit-shift-left 1 ^long %))) 0 1) (range 7 -1 -1)))
+
+(defn apply-rule
+  "Create rule number from `a`, `b`, `c`, parameters (values 0 or 1) and return result from rule table."
+  [rule a b c]
+  (let [s (str a b c)
+        idx (Integer/parseInt s 2)]
+    (rule idx)))
+
+(defn init-cells
+  "Create first line with one single seed in the middle"
+  [^long size]
+  (mapv #(if (== ^long % (m/floor (/ size 2))) 1 0) (range size)))
+
+(defn next-cells
+  "Calculate next line based on previous and rule, wrap result."
+  [cells rule]
+  (let [s (count cells)]
+    (mapv #(let [^long v %                 
+                 [l r] (if wrap?
+                         [(cells (int (m/wrap 0 s (dec v))))
+                          (cells (int (m/wrap 0 s (inc v))))]
+                         [(if (zero? v) 0 (cells (dec v)))
+                          (if (< v (dec s)) (cells (inc v)) 0)])]
+             (apply-rule rule l (cells v) r)) (range s))))
+
+(defn draw-cells
+  "Draw cells."
+  [canvas rule]
+  (loop [cells (init-cells cell-no)
+         row (int 0)]
+    (when (< row rows)
+
+      (dotimes [x cell-no]
+        (if (== ^int (cells x) 1)
+          (set-color canvas :black)
+          (set-color canvas :white))
+        (rect canvas (* x scl) (* row scl) scl scl)
+        (set-color canvas :black)
+        (rect canvas (* x scl) (* row scl) scl scl true))
+      
+      (recur (next-cells cells rule)
+             (inc row)))))
+
+(def cnvs (canvas w h))
+(def window (show-window cnvs "Wolframca figures 7_1"))
+
+(defn draw-rule
+  ""
+  ([]
+   (draw-rule (r/irand 256))) 
+  ([rule]
+   (println (str "Rule: " rule))
+   (with-canvas-> cnvs
+     (draw-cells (make-rule rule)))))
+
+(defmethod mouse-event ["Wolframca figures 7_1" :mouse-clicked] [_ _]
+  (draw-rule))
+
+(draw-rule 150)
+#+end_src
+**** Graphical Study - calculus
+***** Sin and the unit circle
+   #+begin_src clojure
+ (ns GG.M.M-2-1-01
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.vector :as v]
+             [clojure2d.color :as c]))
+
+ (def ^:const wname "M_2_1_01")
+
+ (defn draw
+   ""
+   [canvas window ^long frame _]
+   (let [{:keys [phi
+                 ^double freq
+                 draw-animation?]} (get-state window)
+         point-count (if draw-animation?
+                       (- (width canvas) 400)
+                       (width  canvas ))
+         ;; Define the shape of sin
+         shape (for [i (range point-count)
+                     :let [angle (m/norm i
+                                         0 (/ point-count 1)
+                                         0 (/ m/TWO_PI 1))
+                           y (m/sin (+ 
+                                     (* angle freq)
+                                     (m/radians phi)))]]
+                 (v/vec2 i (* y 100.0)))]
+    
+     (-> canvas
+         (set-background :white)
+         (set-color :black)
+         (set-stroke 2.0)
+         (translate (if draw-animation?     ;; translate x y  <-|
+                      240                                  ;;   v
+                      0)
+                    (/ (height canvas) 2))  
+         (path shape)                       ;; define f(y)=sin
+         )
+     (when draw-animation?
+       (let [t (m/frac (/ (double frame) point-count))
+             angle (* t m/TWO_PI)
+             v (+ (* angle freq) (m/radians phi))
+             x (- (* 100.0 (m/cos v)) 125.0)
+             y (* 100.0 (m/sin v))
+             tpc (* t point-count)
+             phi-x (- (* 100 (m/cos (m/radians phi))) 125)
+             phi-y (* 100 (m/sin (m/radians phi)))]
+
+         (-> canvas
+             (set-stroke 1.0)
+             (ellipse -125 0 200 200 true)
+
+             (set-color :black 128)
+             (line 0 -100 0 100)       ;; y-axis -> cartesian
+             (line 0 0 point-count 0)  ;; x-axis -> cartesian
+             (line -225 0 -25 0)       ;; x-axis -> circle 
+             (line -125 -100 -125 100) ;; y-axis -> circle
+             (line x y -125 0)         ;; r      -> circle
+
+             (set-color 0 130 164)
+             (set-stroke 2.0)
+             (line tpc y tpc 0)        ;; height -> sin-curve
+             (line x y x 0)            ;; height -> sin-circle
+
+             (set-stroke 1.0)
+             (set-color :black 128)
+             (line -125 0 phi-x phi-y) ;; initial angle
+
+             (set-stroke 2.0)
+             ;; start-dot
+             (filled-with-stroke :black :white
+                                 ellipse 0 phi-y 8 8)
+             ;; phi-dot
+             (filled-with-stroke :black :white
+                                 ellipse phi-x phi-y 8 8)
+             ;; curve-dot 
+             (filled-with-stroke :black :white
+                                 ellipse tpc y 10 10)
+             ;; circle-dot
+             (filled-with-stroke :black :white
+                                 ellipse x y 10 10)
+             ;; (filled-with-stroke :black :white
+                                 ;; ellipse x (/ y 2) 10 10)
+             )))))
+
+
+ (def window (show-window {:canvas (canvas 800 400)
+                           :window-name wname
+                           :draw-fn #(draw %1 %2 %3 %4)
+                           :state {:phi 0.0
+                                   :freq 2.0
+                                   :draw-animation? true}}))
+
+ (defmethod key-pressed [wname \a] [_ s]
+   (update s :draw-animation? not))
+
+ (defmethod key-pressed [wname \1] [_ s]
+   (update s
+           :freq #(max 1 (dec ^double %))))
+
+ (defmethod key-pressed [wname \2] [_ s]
+   (update s :freq inc))
+
+ (defmethod key-pressed [wname virtual-key] [e s]
+   (case (key-code e)
+     :left (update s :phi #(+ ^double % 15.0))
+     :right (update s :phi #(- ^double % 15.0))
+     s))
+   #+end_src
+
+   #+RESULTS:
+
+**** Waves (light, quanta) - Eletromagnetism
+
+   #+begin_src clojure
+ (ns GG.M.M-2-3-01
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.vector :as v]))
+
+ (def ^:const wname "M_2_3_01")
+
+ (defn draw-shapes
+   ""
+   [canvas {:keys [phi freq mod-freq draw-frequency? draw-modulation?]}]
+   (let [scaling (* (/ (height canvas) 4))
+         info-fn #(m/sin (+ (* % freq) (m/radians phi)))
+         carrier-fn #(m/cos (+ (* % mod-freq)))
+         angles (map #(vector % (m/norm % 0 (width canvas) 0 m/TWO_PI)) (range (width canvas)))]
+    
+     (-> canvas 
+         (set-background :white)
+         (translate 0 (* scaling 2)))
+
+     (when draw-frequency?
+       (-> canvas
+           (set-color 0 130 164)
+           (path (for [[i angle] angles]
+                   (v/vec2 i (* scaling (info-fn angle)))))))
+
+     (when draw-modulation?
+       (-> canvas
+           (set-color 0 130 164 128)
+           (path (for [[i angle] angles]
+                   (v/vec2 i (* scaling (carrier-fn angle)))))))
+
+     (-> canvas
+         (set-color :black)
+         (set-stroke 2.0)
+         (path (for [[i angle] angles
+                     :let [info (info-fn angle)
+                           carrier (carrier-fn angle)]]
+                 (v/vec2 i (* info carrier scaling)))))))
+
+ (def cnvs (canvas 800 400))
+ (def window (show-window {:canvas cnvs
+                           :window-name wname
+                           :state {:phi 0.0
+                                   :freq 2.0
+                                   :mod-freq 12.0
+                                   :draw-frequency? true
+                                   :draw-modulation? true}}))
+
+ (defn draw
+   ""
+   [s]
+   (with-canvas-> cnvs (draw-shapes s))
+   s)
+
+
+ (defmethod key-pressed [wname \i] [_ s] (draw (update s :draw-frequency? not)))
+ (defmethod key-pressed [wname \c] [_ s] (draw (update s :draw-modulation? not)))
+
+ (defmethod key-pressed [wname \1] [_ s] (draw (update s :freq #(max 1 (dec %)))))
+ (defmethod key-pressed [wname \2] [_ s] (draw (update s :freq inc)))
+
+ (defmethod key-pressed [wname \7] [_ s] (draw (update s :mod-freq #(max 1 (dec %)))))
+ (defmethod key-pressed [wname \8] [_ s] (draw (update s :mod-freq inc)))
+
+ (defmethod key-pressed [wname virtual-key] [e s]
+   (case (key-code e)
+     :left (draw (update s :phi #(+ % 15.0)))
+     :right (draw (update s :phi #(- % 15.0)))
+     s))
+
+ (draw (get-state window))
+   #+end_src
+
+**** Mathematical Fields 
+   #+begin_src clojure
+ (ns GG.M.M-1-5-01
+   (:require [clojure2d.core :refer :all]
+             [clojure2d.color :as c]
+             [fastmath.random :as r]
+             [fastmath.core :as m]
+             [fastmath.fields :as f]))
+
+ (def ^:const wname "M_1_5_01")
+
+ (def ^:const w 800)
+ (def ^:const h 800)
+ (def ^:const arc-color (c/color 0 130 164 100))
+ (def ^:const tile-size 40.0)
+ (def ^:const tile-size-75 (* 0.75 tile-size))
+ (def ^:const tile-size-25 (* 0.25 tile-size))
+ (def ^:const grid-resolution-x (m/round (/ w tile-size)))
+ (def ^:const grid-resolution-y (m/round (/ h tile-size)))
+
+ (def arrow (transcode-svg (load-svg "src/GG/data/arrow.svg") tile-size-75 tile-size-75))
+
+ (defn draw
+   ""
+   [canvas window _ _]
+   (let [{:keys [noise debug]} (get-state window)
+         noise-x-range (/ (max 1 (mouse-x window)) 100.0)
+         noise-y-range (/ (max 1 (mouse-y window)) 100.0)]
+     (set-background canvas :white)
+
+     (dotimes [gy (inc grid-resolution-y)]
+       (dotimes [gx (inc grid-resolution-x)]
+         (let [noise-x (m/norm gx 0 grid-resolution-x 0 noise-x-range)
+               noise-y (m/norm gy 0 grid-resolution-y 0 noise-y-range)
+               ^double noise-value (noise noise-x noise-y)
+               angle (* noise-value m/TWO_PI)]
+
+           (-> canvas
+               (push-matrix)
+               (translate (* tile-size gx) (* tile-size gy)))
+
+           (when debug
+             (-> canvas
+                 (set-color (c/gray (* noise-value 255.0)))
+                 (ellipse 0 0 tile-size-25 tile-size-25)))
+
+           (-> canvas
+
+               (set-stroke 1.0 :square)
+               (set-color arc-color)
+               (arc 0 0 tile-size-75 tile-size-75 0 angle)
+              
+               (rotate angle)
+               (image arrow 0 0)
+               (pop-matrix)))))))
+
+
+ (def window (show-window {:canvas (canvas w h)
+                           :window-name wname
+                           :draw-fn draw
+                           :state (let [nc (r/random-noise-cfg)]
+                                    {:noise-cfg nc
+                                     :noise (r/fbm-noise nc)
+                                     :debug true})}))
+
+
+ (defmethod key-pressed [wname \space] [_ s]
+   (let [nc (r/random-noise-cfg)
+         ns (assoc s :noise-cfg nc :noise (r/fbm-noise nc))]
+     (println ns)
+     ns))
+
+ (defmethod key-pressed [wname \d] [_ s] (update s :debug not))
+
+ (defmethod key-pressed [wname virtual-key] [e s]
+   (let [^double falloff (get-in s [:noise-cfg :gain])
+         ^long octaves (get-in s [:noise-cfg :octaves])
+         ^double lacunarity (get-in s [:noise-cfg :lacunarity])
+         ns (condp = (key-code e)
+              :up (assoc-in s [:noise-cfg :gain] (m/constrain (+ falloff 0.05) 0.0 1.0))
+              :down (assoc-in s [:noise-cfg :gain] (m/constrain (- falloff 0.05) 0.0 1.0))
+              :left (assoc-in s [:noise-cfg :octaves] (max 1 (dec octaves)))
+              :right (assoc-in s [:noise-cfg :octaves] (inc octaves))
+              :page_up (assoc-in s [:noise-cfg :lacunarity] (+ lacunarity 0.1))
+              :page_down (assoc-in s [:noise-cfg :lacunarity] (- lacunarity 0.1))
+              s)]
+     (println (:noise-cfg ns))
+     (assoc ns :noise (r/fbm-noise (:noise-cfg ns)))))
+
+   #+end_src
+
+**** Gases or/and heat
+   #+begin_src clojure
+ (ns examples.NOC.ch01.bouncingball-vectors-1-2
+   (:require [clojure2d.core :refer :all]
+             [fastmath.vector :as v])
+   (:import fastmath.vector.Vec2))
+
+ (set! *warn-on-reflection* true)
+ (set! *unchecked-math* :warn-on-boxed)
+
+ (defn boundary-check
+   "Return -1.0 if out of borders, 1.0 otherwise"
+   [^double mx1 ^double mx2 ^Vec2 v]
+   (Vec2. (if (< -1.0 (.x v) mx1) 1.0 -1.0)
+          (if (< -1.0 (.y v) mx2) 1.0 -1.0)))
+
+ (defn draw
+   "Bounce ball"
+   [canvas _ _ state]
+   (let [[position velocity] (or state [(Vec2. 100 100)
+					(Vec2. 2.5 5.0)])
+         ^Vec2 nposition (v/add position velocity)]
+
+     (-> canvas
+         (set-background 255 255 255 10)
+         (set-color 175 175 175)
+         (ellipse (.x nposition) (.y nposition) 16 16)
+         (set-color 0 0 0)
+         (ellipse (.x nposition) (.y nposition) 16 16 true))
+    
+     [nposition
+      (v/emult velocity (boundary-check (width canvas) (height canvas) nposition))]))
+
+ (def window (show-window (black-canvas 200 200) "Example 1-2: Bouncing Ball, with Vec2!" draw))
+   #+end_src
+
+   #+RESULTS:
+
+**** Viscosity/effect of media 
+   #+begin_src clojure
+ (ns examples.NOC.ch02.fluidresistance-2-5
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.random :as r]
+             [fastmath.vector :as v])
+   (:import fastmath.vector.Vec2))
+
+ (set! *warn-on-reflection* true)
+ (set! *unchecked-math* :warn-on-boxed)
+
+ (def ^:const ^int w 640)
+ (def ^:const ^int h 360)
+ (def ^:const ^int h2 (/ h 2))
+
+ (def ^:const ^int number-of-movers 9)
+
+ (def gravity (Vec2. 0.0 0.1))
+ (def ^:const ^double c 0.1)
+
+ (deftype Mover [position velocity ^double mass]
+   Object
+   (toString [_] (str position " : " velocity)))
+
+ (defn make-mover
+   "Create Mover"
+   []
+   (->Mover (Vec2. (r/drand w) 0.0)
+            (Vec2. 0.0 0.0)
+            (r/drand 1.0 4.0)))
+
+ (defn apply-force
+   "Apply force"
+   [a f mass]
+   (v/add a (v/div f mass)))
+
+ (defn check-edges
+   "Check window boundaries"
+   [^Vec2 velocity ^Vec2 pos]
+   (if (> (.y pos) h)
+     [(Vec2. (.x velocity) (* -0.9 (.y velocity))) (Vec2. (.x pos) h)]
+     [velocity pos]))
+
+ (defn move-mover
+   "Move mover"
+   [^Mover m]
+   (let [acc (-> (Vec2. 0.0 0.0)
+                 (apply-force (if (> (.y ^Vec2 (.position m)) h2)
+				(let [drag-magnitude (* c (m/sq (v/mag (.velocity m))))]
+                                  (-> (.velocity m)
+                                      (v/mult -1.0)
+                                      (v/normalize)
+                                      (v/mult drag-magnitude)))
+				(Vec2. 0.0 0.0)) (.mass m))
+                 (apply-force (-> (.velocity m)
+                                  (v/normalize)
+                                  (v/mult -0.05)) (.mass m))
+                 (v/add gravity))
+         vel (v/add (.velocity m) acc)
+         pos (v/add (.position m) vel)
+         [new-vel new-pos] (check-edges vel pos)]
+     (->Mover new-pos new-vel (.mass m))))
+
+ (defn draw-and-move
+   "Draw mover, move and return new one."
+   [canvas ^Mover m]
+   (let [size (* 16.0 ^double (.mass m))]
+     (-> canvas
+         (set-color 127 127 127 200)
+         (ellipse (.x ^Vec2 (.position m)) (.y ^Vec2 (.position m)) size size false)
+         (set-stroke 2)
+         (set-color :black)
+         (ellipse (.x ^Vec2 (.position m)) (.y ^Vec2 (.position m)) size size true))
+     (move-mover m)))
+
+ (defn draw
+   "Draw movers on canvas"
+   [canvas window _ _]
+   (-> canvas
+       (set-background :white)
+       (set-color 50 50 50)
+       (rect 0 h2 w h2))
+   (set-state! window (mapv (partial draw-and-move canvas) (get-state window))))
+
+ (def window (show-window {:canvas (canvas w h)
+                           :window-name "NOC_2_5_fluidresistance"
+                           :draw-fn draw
+                           :state (repeatedly number-of-movers make-mover)}))
+
+ (defmethod mouse-event ["NOC_2_5_fluidresistance" :mouse-released] [_ _]
+   (repeatedly number-of-movers make-mover))
+   #+end_src
+
+**** Scalar project / dot producs 
+
+   #+begin_src clojure
+ (ns examples.NOC.ch06.simplescalarprojection
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.vector :as v])
+   (:import fastmath.vector.Vec2))
+
+ (set! *warn-on-reflection* true)
+ (set! *unchecked-math* :warn-on-boxed)
+
+ (def ^Vec2 a (Vec2. 20 300))
+ (def ^Vec2 b (Vec2. 500 250))
+
+ (defn scalar-projection
+   ""
+   [p a b]
+   (let [ap (v/sub p a)
+         ab (v/normalize (v/sub b a))]
+     (-> ab
+         (v/mult (v/dot ap ab))
+         (v/add a))))
+
+ (defn draw
+   ""
+   [canvas window _ _]
+   (let [^Vec2 mouse (mouse-pos window)
+         ^Vec2 norm (scalar-projection mouse a b)]
+
+     (-> canvas
+         (set-background :white)
+         (set-color :black)
+         (set-stroke 2.0)
+         (line (.x a) (.y a) (.x b) (.y b))
+         (line (.x a) (.y a) (.x mouse) (.y mouse))
+         (ellipse (.x a) (.y a) 8 8)
+         (ellipse (.x b) (.y b) 8 8)
+         (ellipse (.x mouse) (.y mouse) 8 8)
+         (set-color 50 50 50)
+         (set-stroke 1.0)
+         (line (.x mouse) (.y mouse) (.x norm) (.y norm))
+         (set-color :red)
+         (ellipse (.x norm) (.y norm) 16 16))))
+
+ (def window (show-window (canvas 600 360) "Simple scalar projection" draw))
+
+   #+end_src
+
+**** Biology (people)
+   #+begin_src clojure
+ ;; This is the limited port of paperjs example http://paperjs.org/examples/tadpoles/
+ ;; it is not implementing movement along a path.
+
+ (ns examples.ex57-flocking
+   (:require [clojure2d.core :refer :all]
+             [fastmath.core :as m]
+             [fastmath.random :as r]
+             [fastmath.vector :as v])
+     (:import [fastmath.vector Vec2]))
+
+
+ (set! *warn-on-reflection* true)
+ (set! *unchecked-math* :warn-on-boxed)
+ (m/use-primitive-operators)
+
+ (def ^:const ^double w 1000)
+ (def ^:const ^double h 600)
+
+ (def ^Vec2 zero-vec (Vec2. 0 0))
+
+ (defn mk-boid [^Vec2 position ^double max-speed ^double max-force]
+   (let [strength (r/drand 0 0.5)
+         amount (+ (* strength 10) 10)]
+     {:acceleration (Vec2. 0 0)
+      :vector (Vec2. (r/drand -2 2) (r/drand -2 2))
+      :position position
+      :radius 30
+      :max-speed (+ max-speed strength)
+      :max-force (+ max-force strength)
+      :amount amount
+      :count 0
+      :head {:size [13 8]}
+      :path (mapv (fn [_] zero-vec) (range amount) )
+      :short-path (mapv (fn [_] zero-vec) (range (m/min 3 amount)))
+      }))
+
+ (defn steer [this ^Vec2 target slowdown]
+   (let [desired (v/sub target (:position this))
+         distance (v/mag desired)
+         dl (if (and slowdown (< distance 100))
+              (* ^double (:max-speed this) (/ distance 100))
+              (:max-speed this))
+         steer-v (v/sub (v/set-mag desired dl) (:vector this))]
+     (v/limit steer-v ^double (:max-force this))))
+
+
+
+ (defn seek [{ acc :acceleration :as this} ^Vec2 target]
+   (update this :acceleration (partial v/add (steer this target false))))
+
+
+ (defn arrive [{ acc :acceleration :as this} ^Vec2 target]
+   (update this :acceleration (partial v/add (steer this target true))))
+
+
+ (defn align [this boids]
+   (let [nd 35.0
+         [s ^double c] (reduce (fn [[^Vec2 ste ^double cnt] b]
+                                 (let [dst (v/dist (:position this) (:position b))]
+                                   (if (and (pos? dst) (< dst nd) )
+                                     [(v/add ste (:vector b)) (inc cnt)]
+                                     [ste cnt]))) [zero-vec 0] boids)
+         s' (if (pos? c) (v/div s c) s)]
+     (if (not= 0 (v/mag s'))
+
+       (let [sl (v/set-mag s' (:max-speed this))
+             sv (v/sub sl  (:vector this))]
+         (v/limit sv (:max-force this)))
+      
+       s')))
+        
+ (defn cohesion [this boids]
+   (let [nd 120
+         [^Vec2 s ^double c] (reduce (fn [[ste ^double cnt] b]
+                                       (let [dst (v/dist (:position this) (:position b))]
+                                         (if (and (pos? dst) (< dst nd) )
+                                           [(v/add ste (:position b)) (inc cnt)]
+                                           [ste cnt]))) [zero-vec 0] boids)]
+     (if (pos? c)
+       (steer this (v/div s c) false)
+       s)))
+
+
+ (defn separate [this boids]
+   (let [des-sep 80
+         [s ^double c] (reduce (fn [[^Vec2 ste ^double cnt] b]
+                                 (let [vect (v/sub (:position this) (:position b))
+                                       dst (v/mag vect)]
+                                   (if (and (pos? dst) (< dst des-sep))
+                                     [(v/add ste (v/mult (v/normalize vect) (/ 1.0 dst))) (inc cnt)]
+                                     [ste cnt]))) [zero-vec 0] boids)
+         s' (if (pos? c) (v/div s c) s)]
+     (if (not= 0 (v/mag s'))
+       (let [sl (v/set-mag s' (:max-speed this))
+             sv (v/sub sl (:vector this))]
+         (v/limit sv ^double (:max-force this)))
+      
+       s')))
+
+
+ (defn flock [this boids]
+   (let [s (v/mult (separate this boids) 0.6)
+         a (align this boids)
+         c (cohesion this boids)]
+     (assoc this :acceleration (v/add (:acceleration this) (v/add  s (v/add a c))))) ) 
+
+
+ (defn update-boid [{:keys [vector position acceleration max-speed] :as b}]
+   (let [speed (v/add vector acceleration)
+         vec (v/limit speed max-speed)]
+     (assoc b :vector vec :position (v/add position vec) :acceleration zero-vec)))
+      
+ (defn draw-head [cvs {:keys [head]  :as b}]
+   (let [ang (v/heading (:vector b))
+         [x y] (:position b)
+         [ew eh] (:size head)]
+     (with-canvas-> cvs
+       (push-matrix)
+       (translate x y)
+       (rotate ang)
+       (ellipse 0 0 ew eh)
+       (pop-matrix)))
+   b)
+
+
+ (defn initial-state []
+   {:boids (repeatedly 30 #(mk-boid (Vec2. (r/drand w) (r/drand h)) 10 0.05))
+    :group false})
+
+ (defn borders [{:keys [position ^double radius] :as boid}]
+   (let [[^double px ^double py] position
+         vv
+         (->> [0 0]
+              ((fn [[x y]] [(if (neg? (+ px radius)) (+ w radius) x) y]))
+              ((fn [[x y]] [x (if (neg? (+ py radius)) (+ h radius) y)]))
+              ((fn [[x y]] [(if (> px (+ w radius)) (+ (- w) (- radius)) x) y]))
+              ((fn [[x y]] [x (if (> py (+ h radius)) (+ (- h) (- radius)) y)]))
+              (apply v/vec2 ))]
+     (if (not= (v/mag vv) 0)
+       (assoc boid :position (v/add position vv) :path (mapv #(v/add vv %) (:path boid))) 
+       boid)))
+      
+
+
+ (defn calc-tail [cvs this]
+   (let [speed (v/mag (:vector this))
+         pl (+ 5 (/ speed 3.0)) 
+
+         [seg ss c] (loop [point (:position this)
+                           last-vec (v/mult (:vector this) -1)
+                           seg (assoc (:path this) 0 point)
+                           s-seg (assoc (:short-path this) 0 point)
+                           ^double cnt (:count this)
+                           i 1]
+                      (if (< i ^double (:amount this))
+			(let [vect (v/sub (nth seg i) point)
+                              c (+ cnt (* speed 10))
+                              wave (m/sin (/ (+ c (* i 3)) 300))
+                              sway  (v/mult (v/normalize (v/rotate last-vec  m/HALF_PI)) wave)
+                              p (v/add point (v/add (v/mult (v/normalize last-vec) pl) sway))]
+                          (recur p vect (assoc seg i p) (if (< i 3) (assoc s-seg i p) s-seg) c (inc i)))
+			[seg s-seg cnt]))]
+     (set-stroke cvs 4)
+     (path cvs ss)
+     (set-stroke cvs 2)
+     (path cvs seg)
+     (assoc this :path seg :short-path ss :count c)
+     ) )
+
+
+
+ (defn run-boids [canvas boid {:keys [group boids] :as state}]
+   (let [b (assoc boid :last-loc (:position boid))]
+
+     (->> b
+          ((fn [b] (if group
+                     b
+                     (flock b boids))))
+          (borders)
+          (update-boid)
+          (calc-tail canvas)
+          (draw-head canvas ))))
+
+
+ (defn get-path-target [^long i ^long n ^long f]
+   (let [f' (long (/ f 30))
+         a (* m/TWO_PI (/ (double(mod (+ i f') n))  (double n))) ]
+     (v/add (v/vec2 (/ w 2) (/ h 2)   )    (v/mult (v/vec2 (m/cos a ) (m/sin a)) (* h 0.4)))))
+
+
+
+
+ (let [canvas (canvas w h :high)
+       draw (fn [cvs wnd frm  state]
+              (let [ev (get-state wnd)
+                    gr (:group state)
+                    state (assoc state :group (if (= ev :change) (not gr) gr))
+                    {:keys [boids group]} state
+                    cb (count boids)]
+		(set-state! wnd :none)
+		(set-background cvs :black)
+		(set-color cvs :white)
+		(text cvs "click in wndow for a surprise" 10 16)
+               
+		(assoc state :boids (vec (map-indexed
+                                          (fn [i b]
+                                            (let [b' (if group (arrive b (get-path-target i cb frm)) b)]
+                                             
+                                              (run-boids cvs b' state))) boids)))))
+      
+       wnd (show-window {:canvas canvas
+                         :draw-fn draw
+                         :window-name "boids"
+                         :draw-state (initial-state)})]
+   (defmethod mouse-event ["boids" :mouse-pressed] [e _]
+     (set-state! wnd :change)))
+    
+   #+end_src
+* Conclusions
+Not only one can benefit from the many applications available in an
+FOSS-based system. Also, one benefit from the shared structures
+between the way to use different programs inside this system. More
+over, one benefits from learning how to behave in isomophic
+communities.
+
